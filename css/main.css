@@ -12,9 +12,12 @@ body{
 }
 .hero-info{
     background-image: url(../images/back-img.png);
+    width: 100%;
+    margin-left: 80px;
 }
 .hero-content{
     width: 460px;
+    margin-right: 90px;
 }
 .hero-title{
   font-family: 'Fraunces';
@@ -31,4 +34,45 @@ font-weight: 400;
 font-size: 16px;
 line-height: 26px;
 color: #FEFCF7;
+}
+.oval-content{
+  width: 280px;
+  margin-left: 85px;  
+}
+.oval-info{
+    margin: 100px 80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282F38;
+}
+.oval-contents{
+    display: flex;
+}
+img{
+    margin: 82px ; 
+}
+.oval-title{
+  font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #FEFCF7;  
+}
+.oval-text{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+}
+span{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FDD6BA;
 }
