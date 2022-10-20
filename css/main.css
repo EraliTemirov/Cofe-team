@@ -86,3 +86,23 @@ color: #FDD6BA;
     border: 0;
     clip: rect(0 0 0 0);
 }
+.number{
+   font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #0E8784;
+}
+.list{
+  font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #C1C3C3; 
+
+}
+.list:hover{
+    color:#333D4B;;
+}
