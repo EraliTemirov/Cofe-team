@@ -280,3 +280,26 @@ line-height: 40px;
 .footer-icon{
     margin-right: 40px;
 }
+.nav-link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    font-family: 'Barlow';
+}
+.nav-list{
+    display: flex;
+}
+.header-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item{
+    margin-left: 20px;
+    list-style: none;
+}
