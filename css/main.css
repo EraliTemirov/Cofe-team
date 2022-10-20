@@ -1,0 +1,22 @@
+.container{
+    width: 1360px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+}
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
