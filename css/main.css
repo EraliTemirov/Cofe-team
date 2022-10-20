@@ -141,7 +141,7 @@ color: #C1C3C3;
 
 }
 .cards-row{
-    width: 700px;
+    width: 600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -219,7 +219,7 @@ color:
     height: 150px;
     background-color: #282F37;
     text-align: center;
-    margin-left: 700px;
+    margin-left: 600px;
 }
 .detail-title{
  font-family: 'Barlow';
@@ -246,4 +246,37 @@ font-weight: 900;
 font-size: 24px;
 line-height: 40px;
 }
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #2C343E;
+ margin: 100px 80px;
 
+}
+.footer-list{
+    display: flex;
+}
+.footer-link{
+    text-decoration: none;
+    margin-left: 33px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    font-family: 'Barlow';
+}
+.list{
+    list-style: none;
+}
+.icon{ 
+    margin: 0;
+    margin-left: 20px;
+}
+.footer-icon{
+    margin-right: 40px;
+}
