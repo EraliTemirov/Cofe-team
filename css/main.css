@@ -5,8 +5,30 @@
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'Fraunces', sans-serif;
+    font-family: 'Fraunces','Barlow';
 }
 .container{
     width: 1200px;
+}
+.hero-info{
+    background-image: url(../images/back-img.png);
+}
+.hero-content{
+    width: 460px;
+}
+.hero-title{
+  font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FEFCF7;
+}
+.hero-text{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
 }
