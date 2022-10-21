@@ -9,6 +9,7 @@ body{
 }
 .container{
     width: 1200px;
+    margin: 2px auto;
 }
 .hero-info{
     background-image: url(../images/back-img.png);
@@ -220,6 +221,7 @@ color:
     background-color: #282F37;
     text-align: center;
     margin-left: 600px;
+    margin-bottom: 120px;
 }
 .detail-title{
  font-family: 'Barlow';
@@ -293,6 +295,9 @@ line-height: 40px;
 }
 .nav-list{
     display: flex;
+     position: fixed;
+     z-index: 999;
+    top:0;
 }
 .header-info{
     display: flex;
@@ -302,4 +307,18 @@ line-height: 40px;
 .nav-item{
     margin-left: 20px;
     list-style: none;
+}
+.creat{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FEFCF7;
+background: #0E8784;
+border-radius: 6px;
+text-decoration: none;
+padding: 15px 35px;
+margin-left: 1000px;
 }
