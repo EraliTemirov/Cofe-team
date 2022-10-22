@@ -9,6 +9,9 @@ body{
 }
 .container{
     width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+
 }
 .hero-info{
     background-image: url(../images/back-img.png);
@@ -138,14 +141,12 @@ color: #C1C3C3;
     justify-content: space-between;
     align-items: center;
     margin-left: 400px;
-
 }
 .cards-row{
     width: 600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
 }
 .row-title{
     display: flex;
