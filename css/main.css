@@ -11,16 +11,18 @@ body{
     width: 1200px;
     padding: 0 20px;
     margin: 0 auto;
-
+    margin: 2px auto;
 }
 .hero-info{
-    background-image: url(../images/back-img.png);
+    background-image: url(../images/backimg.png);
     width: 100%;
     margin-left: 80px;
+    height: 400px; 
+    padding-top: 40px;
 }
 .hero-content{
     width: 460px;
-    margin-right: 90px;
+    margin-left: 40px;
 }
 .hero-title{
   font-family: 'Fraunces';
@@ -105,7 +107,7 @@ margin-right: 20px;
 .list.black{
     color: #333D4B;
 }
-.list:hover{
+.number:hover {
    color: 
 #0E8784; 
 }
@@ -221,6 +223,7 @@ color:
     background-color: #282F37;
     text-align: center;
     margin-left: 600px;
+    margin-bottom: 120px;
 }
 .detail-title{
  font-family: 'Barlow';
@@ -294,13 +297,34 @@ line-height: 40px;
 }
 .nav-list{
     display: flex;
+    margin-left: 400px;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #FFFFFF;
 }
 .header-info{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 .nav-item{
     margin-left: 20px;
     list-style: none;
+}
+.creat{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FEFCF7;
+background: #0E8784;
+border-radius: 6px;
+text-decoration: none;
+padding: 15px 35px;
+margin-left: 1000px;
 }

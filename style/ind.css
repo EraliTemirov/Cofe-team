@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  gap:3rem;
+  font-size: 12px;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.container {
+  width: 1200px;
+
+  margin:50px auto;
+}
+container2{
+    width: 100%;
+    margin:10px auto;
+}
+.justify-center{ justify-content: center;}
+.justify-around{ justify-content:space-around;}
+.justify-between{ justify-content: space-between;}
+.justify-evenly{ justify-content: space-evenly;}
+.align-center{ align-items: center;}
+.flex{ display: flex;}
+.nav{
+    background-color: white;
+     position: fixed;
+    z-index: 999;
+     margin-left: 160px;
+    top:0;}
+#navbar{
+    width: 1200px;
+  height: 80px;
+  padding: 2rem;
+  
+}
+.transf{
+    transform: translateY(-120px);
+}
+
+#showcase{
+  background-color: rgba(10, 189, 189, 0.749);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1200px;
+  height:450px;
+  margin-left: 170px;
+  margin: 0 auto;
+  border-radius: 10px;
+
+}
+#showcase .showcase-container{
+  position: absolute;
+width: 445px;
+height: 176px;
+left: 250px;
+top: 250px;
+
+}
+#showcase h1{font-weight: 900px;
+  line-height: 48px;
+  font-size: 40px;
+  color:#FEFCF7;
+}
+#showcase p{font-size: 1rem;
+  width: 400px;
+  height: 104px;
+  line-height: 1.5rem;
+  font-weight: 900px;
+  color:#FEFCF7;
+  margin-top: 20px;
+}
+.container p{
+  width: 540px;
+  height: 260px;
+  font-weight: 400px;
+  font-size: 1rem;
+  line-height: 26px;
+  color:#333D4B;
+}
+.container h2{
+  width: 357px;
+  height: 48px;
+  color:#333D4B;
+  font-weight: 900px;
+  font-size: 40px;
+  line-height: 48px;
+}
+.div-box img{
+  width: 445px;
+  height: 474px; 
+  border-radius:10px
+
+
+}
+.div-box{
+  margin-top: 100px;
+}
+.box1{
+  background-color:#333D4B;
+  width: 1200px;
+  height: 474px;
+  border-radius: 10px;
+  margin-top: 250px;
+}
+.pages1{
+  margin-top: -200px;
+}
+.box1 h2{ width:517px ;
+  color: #FEFCF7;
+  height: 48px;
+  line-height: 40px;
+  font-weight: 900px;
+  font-size:48px ;
+}
+.box1 p{ color:#FEFCF7;
+  width: 540px;
+  height: 130px;
+  font-weight: 400px;
+  line-height: 26px;
+  font-size: 1rem;
+  margin-top: 80px;
+}
+.box2{
+  width: 285px;
+  height: 167px;
+  margin-top: 300px;
+}
+.box2 h3{font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color:#333D4B;
+  margin-top: 3rem;
+}
+.box2 p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color:#333D4B;
+  margin-top: 1rem;
+}
+.box3{
+    margin-top:250px;
+    background-color:#000000;
+    width: 1200px;
+    height: 85px;
+}
+.box3 ul{
+    color: #FEFCF7;
+}
+
+.btn{
+   border: 3px solid rgba(47, 47, 184, 0.475) ;
+    background-color: rgba(47, 47, 184, 0.658);
+    color: #fff;
+    display: inline-block;
+    padding: 0.8em 1.8em;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.btn:hover{
+    
+    background-color: rgba(43, 76, 243, 0.432);
+    color: black;
+}
+.btn:active{
+    background-color: rgba(0, 102, 255, 0.13);
+}
+.ten{
+   
+    width:300px ;
+}
+.portion{margin-top: 100px;
+   
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+.portion p{
+  
+     width: 250px;
+    line-height: 1.6rem;
+}
+.rang{
+    
+    background-color: #333d4b96;
+}
+.trans{
+    margin-top: 40px;
+    text-align: center;
+    transform: translate(320px, 120px);
+    
+}
+.tort p{
+    
+    width: 300px;
+    height: 200px;
+}
+.tort{
+    transform: translateY(120px);
+    border-radius: 10px;
+    text-align: center;
+  background-color: 
+#0E8784;
+   margin-left: 70px;
+}
+.fon p h3{
+    color: white;
+}
+.margin{
+    margin-top: 150px;
+}
+span{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FDD6BA;
+}
+.oval-contents{
+    display: flex;
+}
+
+.oval-title{
+  font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #FEFCF7;  
+}
+.oval-text{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+}
+.red{
+   margin-left: 25px;
+}
+.orqa{
+    transform: translate(5px,120px);
+    z-index: -50;
+}
+.tra{
+    transform: translateY(-80px);
+}
